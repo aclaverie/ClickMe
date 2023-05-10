@@ -5,6 +5,7 @@ import Info from './components/info';
 function App() {
   return (
     <div className="App">
+      
       <header className="App-header">
           <Info />
           <Layout />
