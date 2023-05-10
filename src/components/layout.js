@@ -42,7 +42,7 @@ function Layout(){
     }
 
     //This is not React Best practices to use the state variable for state value in this 
-    //manner shown below line 22 to 24. We need to use a callback function like above that
+    //manner shown below function AddOne(). We need to use a callback function like above that
     //will allow us to have access to the 'oldValue' as a reference to what state was.
     //It is passed in by React auto-magically.
     //Simply if we need to use our oldValue of state to know or get our new state we should
@@ -55,7 +55,6 @@ function Layout(){
     return(
         <>
         <LinearProgress 
-          style={{zIndex: '10'}}
           variant="determinate" 
           value={progress} />
         <div className="game-box">
